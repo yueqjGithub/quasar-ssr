@@ -133,6 +133,10 @@ div,p,span,a,strong,h1,h2,h3,h4,h5,h6,li{
 .flex-4{flex:4;}
 .flex-wrap{flex-wrap: wrap;}
 .flex-nowrap{flex-wrap: nowrap;}
+.pa-col-sm{
+  padding-top: .12rem;
+  padding-bottom: .12rem;
+}
 .pa-col-md{
   padding-top: .2rem;
   padding-bottom: .2rem;
@@ -173,4 +177,11 @@ p{
   to {
     opacity: 1;
   }
+}
+
+.page-container{
+  background: #f6f7fb;
+}
+.my-space{
+  height: .1rem;
 }
