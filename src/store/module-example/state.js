@@ -1,6 +1,7 @@
 export default function () {
   return {
     //
-    indexInfo: null
+    indexInfo: null,
+    newsList: null
   }
 }

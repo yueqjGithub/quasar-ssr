@@ -143,6 +143,7 @@ div,p,span,a,strong,h1,h2,h3,h4,h5,h6,li{
 }
 // 超出省略
 .ellipis{
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
