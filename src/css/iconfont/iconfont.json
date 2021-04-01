@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "3153830",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
       "icon_id": "7147785",
       "name": "新闻收藏",
       "font_class": "xinwenshoucang",
@@ -43,7 +50,7 @@
     {
       "icon_id": "17412361",
       "name": "iOS Arrow Left-1",
-      "font_class": "iOSArrowLeft-1",
+      "font_class": "arrow1",
       "unicode": "e696",
       "unicode_decimal": 59030
     },

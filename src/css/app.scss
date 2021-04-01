@@ -11,6 +11,7 @@ $--color-success: #0ABD9E;
 //-------深色字默认颜色-------
 $--color-font-default: #333333;
 $--color-grey: #cccccc;
+$--color-subGrey: #8a8a8a;
 // -------------标题字体
 @font-face{
   font-family: 'title-font';
@@ -84,6 +85,9 @@ div,p,span,a,strong,h1,h2,h3,h4,h5,h6,li{
 .text-grey{
   color: $--color-grey;
 }
+.text-sub-grey{
+  color: $--color-subGrey;
+}
 .text-light-grey{
   color: #aca6aa;
 }
@@ -104,6 +108,7 @@ div,p,span,a,strong,h1,h2,h3,h4,h5,h6,li{
 .text-blk{color: #333333;}
 .font-12{font-size: .12rem;}
 .font-14{font-size: .14rem;}
+.font-15{font-size: .15rem;}
 .font-16{font-size: .16rem;}
 .font-18{font-size: .18rem;}
 .font-20{font-size: .2rem;}
