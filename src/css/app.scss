@@ -39,6 +39,7 @@ html{
 }
 body{
   font-size: .12rem;
+  background: #f6f7fb;
 }
 
 div,p,span,a,strong,h1,h2,h3,h4,h5,h6,li{
@@ -166,6 +167,7 @@ p{
 
 //quasar样式变更
 .transparent-dialog{
+  z-index: +4;
   .q-dialog__backdrop{
     background: transparent;
   }
@@ -187,7 +189,17 @@ p{
 
 .page-container{
   background: #f6f7fb;
+  min-height: calc(100vh - 124px);
 }
 .my-space{
   height: .1rem;
+}
+.foot-cont{
+  background: #4f4f51;
+}
+
+.cus-carousel{
+  .q-carousel__slide{
+    background-position: 0 0;
+  }
 }

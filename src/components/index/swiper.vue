@@ -8,11 +8,12 @@
     <q-carousel
       height="3.5rem"
       v-model="current"
+      class="cus-carousel"
       transition-prev="slide-right"
       transition-next="slide-left"
       animated
-      autoplay
       swipeable
+      autoplay
       infinite
       keep-alive
       navigation

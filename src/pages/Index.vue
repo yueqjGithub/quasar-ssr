@@ -48,10 +48,6 @@
       </div>
     </div>
     <div class="my-space"></div>
-    <div class="full-width q-pa-md flex-col flex-jst-center flex-ali-center foot-cont">
-      <p class="font-14 text-white">阿古朵游戏版权所有 ©XXXX-XXXX</p>
-      <p class="font-14 text-white">阿古朵游戏</p>
-    </div>
   </q-page>
 </template>
 

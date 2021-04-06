@@ -24,7 +24,7 @@ export default {
     return {
       menuList: [
         { icon: require('../assets/img/icon_shouye_dh.png'), name: 'index', menuName: '首页' },
-        { icon: require('../assets/img/icon_youxi_dh.png'), name: 'index1', menuName: '游戏中心' },
+        { icon: require('../assets/img/icon_youxi_dh.png'), name: 'gameCenter', menuName: '游戏中心' },
         { icon: require('../assets/img/icon_xinwen_dh.png'), name: 'index2', menuName: '新闻中心' },
         { icon: require('../assets/img/icon_guanyu_dh.png'), name: 'about', menuName: '关于我们' },
         { icon: require('../assets/img/icon_jiaru_dh.png'), name: 'index3', menuName: '加入我们' },
@@ -52,6 +52,8 @@ export default {
   overflow-y: scroll;
   background: rgba(255, 255, 255, 0.8);
   align-self: flex-end;
+  padding: 50px 0 74px 0;
+  box-sizing: border-box;
   .cus-header{
     width: 100%;
     position: sticky;

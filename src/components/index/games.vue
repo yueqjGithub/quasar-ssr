@@ -21,7 +21,7 @@
                 <p class="item-title">《{{item.name}}》</p>
                 <span class="ellipis">{{item.introduction}}</span>
               </div>
-              <div class="download-btn relative-position" v-ripple>立即下载</div>
+              <div class="download-btn relative-position" v-ripple @click="toDetail(item.id)">立即下载</div>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
                 <p class="item-title">《{{item.name}}》</p>
                 <span class="ellipis">{{item.introduction}}</span>
               </div>
-              <div class="download-btn relative-position" v-ripple>立即下载</div>
+              <div class="download-btn relative-position" v-ripple @click="toDetail(item.id)">立即下载</div>
             </div>
           </div>
         </div>
@@ -75,6 +75,9 @@ export default {
   methods: {
     changeCurrent (cur) {
       this.current = cur
+    },
+    toDetail (id) {
+      this.$router.push({ name: 'gameDetail', params: { id: id } })
     }
   }
 }

@@ -4,7 +4,7 @@
       <div class="cus-tool-bar flex-row flex-jst-btw q-pa-sm relative-position">
         <div>
           <q-img src="~assets/img/logo.png" style="width: 30vw" @click="toIndex" v-if="!showBack"></q-img>
-          <q-btn dense flat round style="color: #3c3f41;" icon="iconfont:icon-arrow1" size="md" v-go-back v-else/>
+          <q-btn dense flat round style="color: #3c3f41;" icon="iconfont:icon-arrow1" size="md" v-else @click="$router.back()"/>
         </div>
         <div class="flex-row flex-jst-center flex-ali-center font-16 title-show font-bold">
           <span v-if="titleName">{{titleName}}</span>
@@ -31,6 +31,10 @@
         <menuModule></menuModule>
       </q-dialog>
       <router-view />
+      <div class="full-width q-pa-md flex-col flex-jst-center flex-ali-center foot-cont" v-if="showFoot">
+        <p class="font-14 text-white">阿古朵游戏版权所有 ©XXXX-XXXX</p>
+        <p class="font-14 text-white">阿古朵游戏</p>
+      </div>
     </q-page-container>
 
   </q-layout>
@@ -53,6 +57,9 @@ export default {
     },
     showBack () {
       return this.$route.meta?.showBack
+    },
+    showFoot () {
+      return !this.$route.meta?.hideFoot
     }
   },
   methods: {
@@ -66,6 +73,7 @@ export default {
 <style lang="scss" scoped>
 .cus-tool-bar{
   height: 50px;
+  z-index: +5;
   .title-show{
     position: absolute;
     left: 50%;

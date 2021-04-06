@@ -6,6 +6,9 @@
 <script>
 export default {
   name: 'App',
+  meta: {
+    title: '阿古朵游戏'
+  },
   created () {
     this.$q.iconMapFn = (iconName) => {
       // iconName is the content of QIcon "name" prop
@@ -28,3 +31,9 @@ export default {
   }
 }
 </script>
+
+<style>
+#q-app{
+  background: #f6f7fb;
+}
+</style>
