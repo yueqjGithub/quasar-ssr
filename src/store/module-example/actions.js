@@ -11,6 +11,8 @@ export async function queryIndex (context) { // 首页接口
 }
 
 export async function queryNewsInfo (context) {
+  Loading.show()
   const { data } = await httpGet(urls.queryNewsList)
+  Loading.hide()
   context.commit('setNewsList', data.list)
 }

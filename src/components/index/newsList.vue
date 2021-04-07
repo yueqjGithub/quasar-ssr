@@ -37,9 +37,7 @@
 </template>
 
 <script>
-import { date } from 'quasar'
 import { filterNewsContent } from 'src/utils/utils'
-const { formatDate } = date
 export default {
   name: 'newsList',
   props: {
@@ -54,7 +52,7 @@ export default {
   },
   filters: {
     timeShow: function (target) {
-      return formatDate(target, 'YYYY-MM-DD')
+      return target.substr(0, 10)
     }
   },
   computed: {
