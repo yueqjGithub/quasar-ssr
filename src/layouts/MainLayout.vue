@@ -74,6 +74,7 @@ export default {
 .cus-tool-bar{
   height: 50px;
   z-index: +5;
+  border-bottom: 1px solid #e8e8e8;
   .title-show{
     position: absolute;
     left: 50%;

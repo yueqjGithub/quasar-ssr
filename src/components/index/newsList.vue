@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <div class="list-item">
+    <div class="list-item relative-position" v-ripple @click="openDetail(firstLine.id)">
       <div class="full-width content-out flex-row flex-jst-btw flex-ali-center q-pa-xs">
         <div class="left-container flex-3 flex-row flex-jst-start flex-ali-start">
           <img src="~/assets/img/icon_tuijian.png" alt="" class="tuijian-icon">
@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div v-for="k in curList" :key="k.id" class="list-item">
+    <div v-for="k in curList" :key="k.id" class="list-item relative-position" v-ripple @click="openDetail(k.id)">
       <div class="full-width content-out flex-row flex-jst-btw flex-ali-center">
         <div class="left-container flex-col flex-jst-start flex-ali-start flex-3 q-pa-xs">
           <p class="ellipsis item-title text-blk font-15">{{k.title}}</p>
@@ -64,7 +64,10 @@ export default {
     }
   },
   methods: {
-    filterNewsContent
+    filterNewsContent,
+    openDetail (id) {
+      this.$router.push({ name: 'newsDetail', params: { id: id } })
+    }
   }
 }
 </script>

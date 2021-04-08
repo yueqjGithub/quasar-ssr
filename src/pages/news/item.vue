@@ -2,7 +2,7 @@
   <div class="news-container" ref="contain">
     <q-infinite-scroll @load="onLoad" :offset="100" :disable="cur > totalPage" :scroll-target="$refs.contain">
       <div>
-        <div v-for="(k, idx) in curList" :key="idx" class="news-item bg-white">
+        <div v-for="(k, idx) in curList" :key="idx" class="news-item bg-white relative-position" v-ripple @click="openDetail(k.id)">
           <div class="news-content flex-row flex-jst-btw flex-ali-start">
             <div class="news-icon flex-col flex-jst-center flex-ali-center" :style="{backgroundColor: typeList.find(item => item.value === k.type).color}">
               <p class="news-icon-word text-white">{{typeList.find(item => item.value === k.type).label}}</p>
@@ -86,6 +86,9 @@ export default {
   },
   methods: {
     filterNewsContent,
+    openDetail (id) {
+      this.$router.push({ name: 'newsDetail', params: { id: id } })
+    },
     onLoad (index, done) {
       const vm = this
       vm.loading = true

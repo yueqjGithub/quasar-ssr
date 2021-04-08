@@ -203,3 +203,12 @@ p{
     background-position: 0 0;
   }
 }
+
+//新闻详情图片宽度控制
+.news-detail-container{
+  max-width: 100%;
+  img{
+    max-width: 100% !important;
+    height: auto;
+  }
+}

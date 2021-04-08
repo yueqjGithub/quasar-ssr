@@ -2,6 +2,7 @@ export default function () {
   return {
     //
     indexInfo: null,
-    newsList: null
+    newsList: null,
+    curNewsDetail: null
   }
 }

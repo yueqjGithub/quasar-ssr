@@ -16,3 +16,10 @@ export async function queryNewsInfo (context) {
   Loading.hide()
   context.commit('setNewsList', data.list)
 }
+
+export async function queryNewsDetail (ctx, payload) {
+  Loading.show()
+  const { data } = await httpGet(urls.newsDetail, { id: payload })
+  Loading.hide()
+  ctx.commit('setCurNews', data)
+}
