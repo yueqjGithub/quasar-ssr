@@ -12,6 +12,8 @@ const routes = [
       { path: '/newsDetail', name: 'newsDetail', component: () => import('pages/news/newsDetail.vue'), meta: { showBack: true } },
       { path: '/introduce', name: 'introduce', component: () => import('pages/about/introduce.vue'), meta: { showBack: true } },
       { path: '/culture', name: 'culture', component: () => import('pages/about/culture.vue'), meta: { showBack: true } },
+      { path: '/employer', name: 'employer', component: () => import('pages/about/employess.vue'), meta: { showBack: true } },
+      { path: '/development', name: 'development', component: () => import('pages/about/development.vue'), meta: { showBack: true } },
       { path: '/history', name: 'history', component: () => import('pages/about/history.vue'), meta: { showBack: true } }
     ]
   },

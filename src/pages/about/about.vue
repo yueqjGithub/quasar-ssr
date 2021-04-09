@@ -18,8 +18,8 @@ export default {
         { img: require('../../assets/img/about/about1.png'), path: '/introduce' },
         { img: require('../../assets/img/about/about2.png'), path: '/history' },
         { img: require('../../assets/img/about/about3.png'), path: '/culture' },
-        { img: require('../../assets/img/about/about4.png'), path: '' },
-        { img: require('../../assets/img/about/about5.png'), path: '' }
+        { img: require('../../assets/img/about/about4.png'), path: '/employer' },
+        { img: require('../../assets/img/about/about5.png'), path: '/development' }
       ]
     }
   },
