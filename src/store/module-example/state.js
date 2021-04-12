@@ -3,6 +3,8 @@ export default function () {
     //
     indexInfo: null,
     newsList: null,
-    curNewsDetail: null
+    curNewsDetail: null,
+    jobList: null,
+    serviceList: null
   }
 }

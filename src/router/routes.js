@@ -14,7 +14,10 @@ const routes = [
       { path: '/culture', name: 'culture', component: () => import('pages/about/culture.vue'), meta: { showBack: true } },
       { path: '/employer', name: 'employer', component: () => import('pages/about/employess.vue'), meta: { showBack: true } },
       { path: '/development', name: 'development', component: () => import('pages/about/development.vue'), meta: { showBack: true } },
-      { path: '/history', name: 'history', component: () => import('pages/about/history.vue'), meta: { showBack: true } }
+      { path: '/history', name: 'history', component: () => import('pages/about/history.vue'), meta: { showBack: true } },
+      { path: '/join', name: 'join', component: () => import('pages/join/join.vue'), meta: { title: '加入我们' } },
+      { path: '/serviceCenter', name: 'serviceCenter', component: () => import('pages/serviceCenter/serviceCenter.vue'), meta: { title: '客服中心' } },
+      { path: '/serviceDetail', name: 'serviceDetail', component: () => import('pages/serviceCenter/serviceDetail.vue'), meta: { showBack: true } }
     ]
   },
 

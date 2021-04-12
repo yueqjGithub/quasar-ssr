@@ -27,8 +27,8 @@ export default {
         { icon: require('../assets/img/icon_youxi_dh.png'), name: 'gameCenter', menuName: '游戏中心' },
         { icon: require('../assets/img/icon_xinwen_dh.png'), name: 'news', menuName: '新闻中心' },
         { icon: require('../assets/img/icon_guanyu_dh.png'), name: 'about', menuName: '关于我们' },
-        { icon: require('../assets/img/icon_jiaru_dh.png'), name: 'index3', menuName: '加入我们' },
-        { icon: require('../assets/img/icon_kefu_dh.png'), name: 'index4', menuName: '客服中心' }
+        { icon: require('../assets/img/icon_jiaru_dh.png'), name: 'join', menuName: '加入我们' },
+        { icon: require('../assets/img/icon_kefu_dh.png'), name: 'serviceCenter', menuName: '客服中心' }
       ]
     }
   },

@@ -9,3 +9,11 @@ export function setNewsList (context, payload) {
 export function setCurNews (ctx, payload) {
   ctx.curNewsDetail = payload
 }
+
+export function setJobList (ctx, payload) {
+  ctx.jobList = payload
+}
+
+export function setServiceList (ctx, payload) {
+  ctx.serviceList = payload
+}
