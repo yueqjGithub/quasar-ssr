@@ -12,7 +12,7 @@
     </div>
     <div class="flex-row flex-jst-btw flex-ali-center ma-bt-1">
       <div class="width-49 self-stretch">
-        <img src="~assets/img/service/pic_tsjy.png" alt="" class="full-width full-height">
+        <img src="~assets/img/service/pic_tsjy.png" alt="" class="full-width full-height" @click="toFeedback">
       </div>
       <img src="~assets/img/service/pic_bdss.png" alt="" class="width-49 display-block" @click="toDetail(4)">
     </div>
@@ -31,6 +31,9 @@ export default {
     },
     OPEN_KF_HANDLER () {
       window.open('https://url.cn/5O7aoiQ?_type=wpa&qidian=true')
+    },
+    toFeedback () {
+      this.$router.push({ name: 'feedback' })
     }
   }
 }

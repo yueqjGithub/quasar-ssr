@@ -17,7 +17,8 @@ const routes = [
       { path: '/history', name: 'history', component: () => import('pages/about/history.vue'), meta: { showBack: true } },
       { path: '/join', name: 'join', component: () => import('pages/join/join.vue'), meta: { title: '加入我们' } },
       { path: '/serviceCenter', name: 'serviceCenter', component: () => import('pages/serviceCenter/serviceCenter.vue'), meta: { title: '客服中心' } },
-      { path: '/serviceDetail', name: 'serviceDetail', component: () => import('pages/serviceCenter/serviceDetail.vue'), meta: { showBack: true } }
+      { path: '/serviceDetail', name: 'serviceDetail', component: () => import('pages/serviceCenter/serviceDetail.vue'), meta: { showBack: true } },
+      { path: '/feedback', name: 'feedback', component: () => import('pages/serviceCenter/feedback.vue'), meta: { showBack: true } }
     ]
   },
 
