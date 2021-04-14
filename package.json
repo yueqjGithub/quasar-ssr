@@ -7,7 +7,9 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build:test": "cross-env CUS_ENV=TEST_ENV quasar build -m ssr",
+    "build:prod": "cross-env CUS_ENV=PROD_ENV quasar build -m ssr"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@quasar/app": "^2.0.0",
     "babel-eslint": "^10.0.1",
+    "cross-env": "^7.0.3",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-loader": "^3.0.3",

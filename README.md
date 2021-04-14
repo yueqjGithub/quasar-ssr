@@ -21,8 +21,10 @@ quasar dev -m ssr
 ### 部署说明
 #### 项目安装成功后按此命令进行部署
 ```bash
-// 执行打包命令
-quasar build -m ssr
+// 执行打包命令-测试环境
+npm run build:test
+// 打包-生产环境
+npm run build:prod
 // 进入项目打包后的文件夹dist/ssr启动项目
 set PORT=3007 && npm run start
 // 配置nginx代理到指定端口
