@@ -1,25 +1,31 @@
 # homepage-mp (homepage-mp)
 
-build homepage by quasar ssr mode
+ssr模式官网移动端
 
-## Install the dependencies
+## 安装指令
+### 全局安装quasar-cli
+```bash
+npm install -g @quasar/cli
+```
+
+### 项目内安装依赖
 ```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### 开发模式
 ```bash
-quasar dev
+quasar dev -m ssr
 ```
 
-### Lint the files
+### 部署说明
+#### 项目安装成功后按此命令进行部署
 ```bash
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
+// 执行打包命令
+quasar build -m ssr
+// 进入项目打包后的文件夹dist/ssr启动项目
+set PORT=3007 && npm run start
+// 配置nginx代理到指定端口
 ```
 
 ### Customize the configuration
