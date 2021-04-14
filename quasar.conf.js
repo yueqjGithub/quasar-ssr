@@ -8,7 +8,6 @@
 /* eslint-env node */
 
 module.exports = function (ctx) {
-  console.log(process.env)
   return {
     // https://quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
@@ -46,11 +45,6 @@ module.exports = function (ctx) {
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
-      env: {
-        API: ctx.dev
-          ? 'https://dev.api.com'
-          : 'https://prod.api.com'
-      },
       // transpile: false,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
