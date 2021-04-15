@@ -26,7 +26,8 @@ npm run build:test
 // 打包-生产环境
 npm run build:prod
 // 进入项目打包后的文件夹dist/ssr启动项目
-set PORT=3007 && npm run start
+set PORT=3007 && npm run start (windows)
+export PORT=3007 && npm run start (linux)
 // 配置nginx代理到指定端口
 ```
 
