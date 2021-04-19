@@ -10,7 +10,7 @@
             <p class="game-intro font-14 text-light-grey ellipsis">{{k.subtitle}}</p>
           </div>
         </div>
-        <q-btn unelevated color="negative" size="small" style="border-radius: .07rem" @click="toDetail(k.id)">查看更多</q-btn>
+        <q-btn unelevated color="negative" size="small" style="border-radius: .07rem" @click="toDetail(k.id)">了解更多</q-btn>
       </div>
     </div>
   </div>

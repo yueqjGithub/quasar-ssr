@@ -10,7 +10,7 @@
             <p class="game-intro font-14 text-light-grey ellipsis">{{target.subtitle}}</p>
           </div>
         </div>
-        <q-btn unelevated color="negative" size="small" style="border-radius: .07rem;font-weight: bold" @click="download">下载游戏</q-btn>
+        <q-btn unelevated color="negative" size="small" style="border-radius: .07rem;font-weight: bold" @click="download">点击下载</q-btn>
       </div>
     </div>
     <div>
