@@ -20,7 +20,7 @@
 <!--      活动content-->
       <div class="q-pa-md">
         <div class="full-width flex-row flex-jst-btw flex-ali-center">
-          <div class="flex-col flex-jst-start flex-ali-center act-module act-left">
+          <div class="self-stretch flex-col flex-jst-start flex-ali-center act-module act-left">
             <div class="full-width flex-row flex-jst-start flex-ali-start">
               <img src="~/assets/img/1_41.png" alt="" class="act-img">
               <p class="font-16 font-bold text-black">最强王者</p>
@@ -35,8 +35,8 @@
             </div>
           </div>
 <!--          活动模块右侧-->
-          <div class="flex-1 self-stretch flex-col flex-jst-btw flex-ali-center">
-            <div v-for="k in activeList" :key="k.title" class="flex-col flex-jst-center flex-ali-center act-module full-width q-pa-sm">
+          <div class="flex-1 flex-col flex-jst-btw flex-ali-center">
+            <div v-for="k in activeList" :key="k.title" class="flex-col flex-jst-center flex-ali-center act-module act-module-rt full-width q-pa-sm">
               <img :src="k.img" alt="" class="act-img-rt">
               <p class="font-15 font-bold text-black q-pa-xs">{{k.title}}</p>
               <span class="font-12 text-sub-grey">{{k.description}}</span>
@@ -94,6 +94,9 @@ export default {
   background: #fff;
   .item-tit{
     border-bottom: 1px solid #e8e8e8;
+  }
+  .act-module-rt+.act-module-rt{
+    margin-top: .15rem;
   }
   .act-module{
     background-color: #f2f4fd;

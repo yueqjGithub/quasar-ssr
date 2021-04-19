@@ -32,8 +32,13 @@
       </q-dialog>
       <router-view />
       <div class="full-width q-pa-md flex-col flex-jst-center flex-ali-center foot-cont" v-if="showFoot">
-        <p class="font-14 text-white">阿古朵游戏版权所有 ©XXXX-XXXX</p>
-        <p class="font-14 text-white">阿古朵游戏</p>
+        <p class="font-14 text-white">抵制不良游戏，拒绝盗版游戏。</p>
+        <p class="font-14 text-white">《网络文化经营许可证》</p>
+        <p class="font-14 text-white text-center">川网备案号</p>
+        <div class="font-14 text-center flex-row flex-jst-center flex-ali-center">
+          <img src="~/assets/img/police_ba.png" alt="" class="ma-rt-02">
+          <span class="font-14 text-white">xxxxxxxxx</span>
+        </div>
       </div>
     </q-page-container>
 
