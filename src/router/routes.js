@@ -29,5 +29,4 @@ const routes = [
     component: () => import('pages/Error404.vue')
   }
 ]
-
 export default routes

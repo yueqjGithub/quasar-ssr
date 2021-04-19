@@ -25,6 +25,9 @@ export default function (/* { store, ssrContext } */) {
     mode: process.env.VUE_ROUTER_MODE,
     base: process.env.VUE_ROUTER_BASE
   })
-
+  Router.beforeEach((from, to, next) => {
+    window.scrollTo(0, 0)
+    return next()
+  })
   return Router
 }
