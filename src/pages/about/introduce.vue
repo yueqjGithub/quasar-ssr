@@ -1,7 +1,7 @@
 <template>
   <div class="page-container">
     <div class="title-container flex-col flex-jst-center flex-ali-center q-pa-md">
-      <p class="title-font text-blk intro-tit font-18">公司介绍</p>
+      <p class="text-blk intro-tit font-18 font-bold">公司介绍</p>
       <p class="title-en">COMPANY PROFILE</p>
       <img src="~assets/img/pic_biaoti.png" alt="">
     </div>
