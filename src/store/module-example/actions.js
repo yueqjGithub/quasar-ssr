@@ -5,6 +5,8 @@ import { Loading } from 'quasar'
 export async function queryIndex (context) { // 首页接口
   Loading.show()
   const { data } = await httpGet(urls.queryIndex)
+  // const res = await httpGet(urls.test)
+  // console.log(res)
   await context.dispatch('queryNewsInfo')
   Loading.hide()
   context.commit('setIndexInfo', data)

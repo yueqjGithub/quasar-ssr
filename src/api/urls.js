@@ -18,6 +18,7 @@ const urls = {
   jobDetail: '/api/home/job/detail', // 职位详情
   queryQuestions: '/api/home/service', // 客服中心问题列表
   commitFeedback: '/api/feedback'
+  // test: 'https://gamedatemanageapi.8xgame.cn/gameDateManage/loginOut/loginBms?loginName=admin&loginPassword=Cdcyi@2407'
 }
 
 export default urls
