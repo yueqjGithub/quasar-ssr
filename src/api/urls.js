@@ -5,7 +5,7 @@ const downloadPage = 'https://test.sdk.chaoyi.cn'
 // const baseUrl = '/gameDateManage'
 
 if (process.env.CUS_ENV === 'PROD_ENV') {
-  baseUrl = 'https://wwwadminapi.agdgame.cn'
+  baseUrl = 'http://wwwadminapi.agdgame.cn'
 }
 
 const urls = {
