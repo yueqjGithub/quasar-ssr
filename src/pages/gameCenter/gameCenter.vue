@@ -31,7 +31,7 @@ export default {
   computed: {
     ...mapState(['indexInfo']),
     gameList () {
-      return this.indexInfo.games ? [...this.indexInfo.games.list].reverse() : []
+      return this.indexInfo.games ? [...this.indexInfo.games.list] : []
     }
   },
   methods: {
