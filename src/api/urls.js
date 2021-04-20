@@ -6,6 +6,7 @@ const downloadPage = 'https://test.sdk.chaoyi.cn'
 
 if (process.env.CUS_ENV === 'PROD_ENV') {
   baseUrl = 'http://wwwadminapi.agdgame.cn'
+  // http://webapi.8xgame.cn
 }
 
 const urls = {

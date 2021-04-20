@@ -2,7 +2,7 @@
   <div class="page-container">
     <div class="title-container flex-col flex-jst-center flex-ali-center q-pa-md full-width">
       <p class="title-font text-blk intro-tit font-18">员工发展</p>
-      <p class="title-en">DEVELOPMENT</p>
+      <p class="title-en">STAFF DEVELOPMENT</p>
       <img src="~assets/img/pic_biaoti.png" alt="">
     </div>
     <div class="content-out">
