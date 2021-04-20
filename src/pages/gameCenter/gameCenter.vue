@@ -1,7 +1,7 @@
 <template>
   <div class="page-container q-pa-md">
     <div class="games-item" v-for="k in gameList" :key="k.id">
-      <q-img :src="k.poster" width="100%" :ratio="73/35" height="100%" :img-style="{borderRadius: '.07rem'}"></q-img>
+      <q-img :src="k.poster" width="100%" :ratio="375/228" height="100%" :img-style="{borderRadius: '.07rem'}"></q-img>
       <div class="full-width flex-row flex-jst-btw flex-ali-center q-pa-sm">
         <div class="flex-row flex-jst-start flex-ali-center">
           <q-img :src="k.logo" width=".6rem" :ratio="1/1" :img-style="{borderRadius: '.07rem'}"></q-img>

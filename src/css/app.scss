@@ -15,7 +15,6 @@ $--color-subGrey: #8a8a8a;
 // -------------标题字体
 @font-face{
   font-family: 'title-font';
-  src: url('../assets/胡晓波男神体.otf');
 }
 // -----------------普通字体---------------------
 @font-face{
@@ -48,6 +47,7 @@ div,p,span,a,strong,h1,h2,h3,h4,h5,h6,li{
 
 .title-font{
   font-family: 'title-font';
+  font-weight: bold;
 }
 
 .rtl{
