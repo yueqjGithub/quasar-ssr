@@ -22,8 +22,8 @@
         <div class="full-width flex-row flex-jst-btw flex-ali-center">
           <div class="self-stretch flex-col flex-jst-start flex-ali-center act-module act-left">
             <div class="full-width flex-row flex-jst-start flex-ali-start">
-              <img src="~/assets/img/1_41.png?v=2" alt="" class="act-img">
-              <p class="font-16 font-bold text-black">龙城凯歌</p>
+              <img src="~/assets/img/1_41.jpeg?v=2" alt="" class="act-img">
+              <p class="font-16 font-bold text-black">女武神战记</p>
             </div>
             <div class="self-stretch flex-row flex-jst-start flex-ali-start act-left-cont">
               <p class="p-col">
