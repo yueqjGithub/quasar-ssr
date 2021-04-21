@@ -98,6 +98,7 @@ export default {
   }
   .name-out{
     margin-left: .07rem;
+    max-width: 1.6rem;
     .game-intro{
       max-width: 40vw;
     }

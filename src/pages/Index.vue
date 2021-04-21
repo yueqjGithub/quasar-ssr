@@ -23,7 +23,7 @@
           <div class="self-stretch flex-col flex-jst-start flex-ali-center act-module act-left">
             <div class="full-width flex-row flex-jst-start flex-ali-start">
               <img src="~/assets/img/1_41.png" alt="" class="act-img">
-              <p class="font-16 font-bold text-black">最强王者</p>
+              <p class="font-16 font-bold text-black">龙城霸业</p>
             </div>
             <div class="self-stretch flex-row flex-jst-start flex-ali-start act-left-cont">
               <p class="p-col">
@@ -73,8 +73,8 @@ export default {
     return {
       info: null,
       activeList: [
-        { img: actImg1, title: '屠龙圣域', description: '全平台上线，狂刷装备' },
-        { img: actImg2, title: '神龙猎手', description: '全平台上线，狂刷装备' }
+        { img: actImg1, title: '至尊传奇', description: '全平台上线，狂刷装备' },
+        { img: actImg2, title: '女武神降临', description: '全平台上线，狂刷装备' }
       ]
     }
   },

@@ -6,7 +6,7 @@
         <div class="flex-row flex-jst-start flex-ali-center">
           <q-img :src="k.logo" width=".6rem" :ratio="1/1" :img-style="{borderRadius: '.07rem'}"></q-img>
           <div class="name-out flex-col flex-jst-ard flex-ali-start self-stretch">
-            <p class="game-name font-15 font-bold text-blk">《{{k.name}}》</p>
+            <p class="game-name font-14 font-bold text-blk">《{{k.name}}》</p>
             <p class="game-intro font-14 text-light-grey ellipsis">{{k.subtitle}}</p>
           </div>
         </div>
@@ -52,6 +52,7 @@ export default {
   }
   .name-out{
     margin-left: .07rem;
+    max-width: 1.6rem;
     .game-intro{
       max-width: 40vw;
     }

@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
+    "dev:test": "cross-env CUS_ENV=TEST_ENV quasar dev",
     "build:test": "cross-env CUS_ENV=TEST_ENV quasar build -m ssr",
     "build:prod": "cross-env CUS_ENV=PROD_ENV quasar build -m ssr"
   },

@@ -4,8 +4,8 @@ const downloadPage = 'https://test.sdk.chaoyi.cn'
 // let baseUrl = '/'
 // const baseUrl = '/gameDateManage'
 
-if (process.env.CUS_ENV === 'PROD_ENV') {
-  baseUrl = 'http://wwwadminapi.agdgame.cn'
+if (process.env.CUS_ENV === 'TEST_ENV') {
+  baseUrl = 'http://webapi.8xgame.cn'
   // http://webapi.8xgame.cn
 }
 

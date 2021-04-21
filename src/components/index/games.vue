@@ -127,7 +127,8 @@ export default {
     }
     .item-title{
       color: #5f5460;
-      font-size: .16rem;
+      font-size: 0.14rem;
+      height: .5rem;
       font-weight: bolder;
       +span{
         color: #8a8a8a;
