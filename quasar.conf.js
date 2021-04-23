@@ -46,12 +46,13 @@ module.exports = function (ctx) {
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // transpile: false,
-
+      env: {
+        REQ_HOST: process.env.CUS_ENV === 'PROD_ENV' ? 'http://wwwadminapi.agdgame.cn' : 'http://webapi.8xgame.cn'
+      },
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
       // Applies only if "transpile" is set to true.
       // transpileDependencies: [],
-
       // rtl: false, // https://quasar.dev/options/rtl-support
       // preloadChunks: true,
       // showProgress: false,

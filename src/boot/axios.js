@@ -2,6 +2,7 @@ import Vue from 'vue'
 import axios from 'axios'
 import urls from '../api/urls'
 
+console.log(process.env.CUS_ENV)
 const http = axios.create({
   baseURL: urls.baseUrl,
   timeout: 30000
