@@ -47,7 +47,7 @@ module.exports = function (ctx) {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // transpile: false,
       env: {
-        REQ_HOST: process.env.CUS_ENV === 'PROD_ENV' ? 'http://wwwadminapi.agdgame.cn' : 'http://webapi.8xgame.cn'
+        REQ_HOST: process.env.CUS_ENV === 'PROD_ENV' ? 'http://wwwadminapi.agdgame.cn' : 'https://webapi.8xgame.cn'
       },
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
